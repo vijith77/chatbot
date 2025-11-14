@@ -7,7 +7,7 @@ fetch('products.json')
 productList.innerHTML += `
                 <div class="col-md-3 mb-4">
                     <div class="card p-3">
-                        ${p.image}
+                        <img src="${p.image}" alt="${p.name}">
                         <h5>${p.name}</h5>
                         <p>ID: ${p.id}</p>
                     </div>
