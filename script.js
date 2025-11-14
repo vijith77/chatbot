@@ -6,7 +6,7 @@ fetch('products.json')
             productList.innerHTML += `
                 <div class="col-md-3 mb-4">
                     <div class="card p-3">
-                        <img src="${p.image}" alt="${p.name}">
+                        ${p.image}
                         <h5>${p.name}</h5>
                         <p>ID: ${p.id}</p>
                     </div>
@@ -14,9 +14,13 @@ fetch('products.json')
             `;
         });
 
-        document.getElementById('send-btn').addEventListener('click', async () => {
-            const input = document.getElementById('chat-input').value.trim();
-            const chatBody = document.getElementById('chat-body');
+        const chatBody = document.getElementById('chat-body');
+        const inputField = document.getElementById('chat-input');
+        const sendBtn = document.getElementById('send-btn');
+
+        // Function to handle query
+        const handleQuery = () => {
+            const input = inputField.value.trim();
             if (!input) return;
 
             let results = [];
@@ -49,20 +53,25 @@ fetch('products.json')
                 if (keywordMatches.length > 0) {
                     results.push(`Products matching keyword "${input}":<br>${keywordMatches.map(p => `${p.name} (ID: ${p.id})`).join('<br>')}`);
                 }
-                const inputField = document.getElementById('chat-input');
-inputField.addEventListener('keypress', (e) => {
-    if (e.key === 'Enter') {
-        document.getElementById('send-btn').click();
-    }
-});
             }
 
             if (results.length > 0) {
                 chatBody.innerHTML += `<div>${results.join('<hr>')}</div>`;
             } else {
-                chatBody.innerHTML += `<div>No direct match found. Try another query or use AI.</div>`;
+                chatBody.innerHTML += `<div>No direct match found. Try another query.</div>`;
             }
 
-            document.getElementById('chat-input').value = '';
+            inputField.value = '';
+            chatBody.scrollTop = chatBody.scrollHeight; // Auto-scroll
+        };
+
+        // Click event
+        sendBtn.addEventListener('click', handleQuery);
+
+        // Enter key event
+        inputField.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') {
+                handleQuery();
+            }
         });
     });
