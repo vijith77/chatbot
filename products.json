@@ -1,5 +1,752 @@
 [
-    { "id": "101", "name": "Slim Fit Shirt", "colors": ["White", "Black"], "sizes": ["S", "M", "L"], "fit": "Slim", "description": "A stylish slim fit shirt for all occasions." },
-    { "id": "102", "name": "Classic Jeans", "colors": ["Blue", "Black"], "sizes": ["30", "32", "34"], "fit": "Regular", "description": "Comfortable classic jeans with a timeless look." },
-    { "id": "103", "name": "Cotton T-Shirt", "colors": ["Grey", "White"], "sizes": ["M", "L", "XL"], "fit": "Regular", "description": "Soft cotton T-shirt perfect for everyday wear." }
+    {
+        "id": "101",
+        "name": "Product 1",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 1.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "102",
+        "name": "Product 2",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 2.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "103",
+        "name": "Product 3",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 3.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "104",
+        "name": "Product 4",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 4.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "105",
+        "name": "Product 5",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 5.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "106",
+        "name": "Product 6",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 6.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "107",
+        "name": "Product 7",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 7.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "108",
+        "name": "Product 8",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 8.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "109",
+        "name": "Product 9",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 9.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "110",
+        "name": "Product 10",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 10.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "111",
+        "name": "Product 11",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 11.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "112",
+        "name": "Product 12",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 12.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "113",
+        "name": "Product 13",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 13.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "114",
+        "name": "Product 14",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 14.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "115",
+        "name": "Product 15",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 15.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "116",
+        "name": "Product 16",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 16.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "117",
+        "name": "Product 17",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 17.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "118",
+        "name": "Product 18",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 18.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "119",
+        "name": "Product 19",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 19.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "120",
+        "name": "Product 20",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 20.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "121",
+        "name": "Product 21",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 21.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "122",
+        "name": "Product 22",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 22.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "123",
+        "name": "Product 23",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 23.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "124",
+        "name": "Product 24",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 24.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "125",
+        "name": "Product 25",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 25.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "126",
+        "name": "Product 26",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 26.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "127",
+        "name": "Product 27",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 27.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "128",
+        "name": "Product 28",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 28.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "129",
+        "name": "Product 29",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 29.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "130",
+        "name": "Product 30",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 30.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "131",
+        "name": "Product 31",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 31.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "132",
+        "name": "Product 32",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 32.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "133",
+        "name": "Product 33",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 33.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "134",
+        "name": "Product 34",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 34.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "135",
+        "name": "Product 35",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 35.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "136",
+        "name": "Product 36",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 36.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "137",
+        "name": "Product 37",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 37.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "138",
+        "name": "Product 38",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 38.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "139",
+        "name": "Product 39",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 39.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "140",
+        "name": "Product 40",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 40.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "141",
+        "name": "Product 41",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 41.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "142",
+        "name": "Product 42",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 42.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "143",
+        "name": "Product 43",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 43.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "144",
+        "name": "Product 44",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 44.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "145",
+        "name": "Product 45",
+        "colors": [
+            "Red",
+            "Green"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 45.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "146",
+        "name": "Product 46",
+        "colors": [
+            "Green",
+            "Grey"
+        ],
+        "sizes": [
+            "M",
+            "L"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 46.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "147",
+        "name": "Product 47",
+        "colors": [
+            "Grey",
+            "Black"
+        ],
+        "sizes": [
+            "L",
+            "XL"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 47.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "148",
+        "name": "Product 48",
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "sizes": [
+            "XL",
+            "XXL"
+        ],
+        "fit": "Slim",
+        "description": "This is a dummy description for Product 48.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "149",
+        "name": "Product 49",
+        "colors": [
+            "White",
+            "Blue"
+        ],
+        "sizes": [
+            "XXL",
+            "S"
+        ],
+        "fit": "Regular",
+        "description": "This is a dummy description for Product 49.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    },
+    {
+        "id": "150",
+        "name": "Product 50",
+        "colors": [
+            "Blue",
+            "Red"
+        ],
+        "sizes": [
+            "S",
+            "M"
+        ],
+        "fit": "Loose",
+        "description": "This is a dummy description for Product 50.",
+        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+    }
 ]
