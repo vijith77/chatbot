@@ -1,0 +1,5 @@
+[
+    { "id": "101", "name": "Slim Fit Shirt", "colors": ["White", "Black"], "sizes": ["S", "M", "L"], "fit": "Slim", "description": "A stylish slim fit shirt for all occasions." },
+    { "id": "102", "name": "Classic Jeans", "colors": ["Blue", "Black"], "sizes": ["30", "32", "34"], "fit": "Regular", "description": "Comfortable classic jeans with a timeless look." },
+    { "id": "103", "name": "Cotton T-Shirt", "colors": ["Grey", "White"], "sizes": ["M", "L", "XL"], "fit": "Regular", "description": "Soft cotton T-shirt perfect for everyday wear." }
+]
