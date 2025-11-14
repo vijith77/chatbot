@@ -29,7 +29,7 @@ fetch('products.json')
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
-                            'Authorization': 'Bearer YOUR_OPENAI_API_KEY' // Replace with your API key
+                            'Authorization': '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' // Replace with your API key
                         },
                         body: JSON.stringify({
                             model: 'gpt-4',
