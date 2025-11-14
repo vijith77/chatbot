@@ -49,6 +49,12 @@ fetch('products.json')
                 if (keywordMatches.length > 0) {
                     results.push(`Products matching keyword "${input}":<br>${keywordMatches.map(p => `${p.name} (ID: ${p.id})`).join('<br>')}`);
                 }
+                const inputField = document.getElementById('chat-input');
+inputField.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+        document.getElementById('send-btn').click();
+    }
+});
             }
 
             if (results.length > 0) {
