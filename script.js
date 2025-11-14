@@ -4,8 +4,9 @@ fetch('products.json')
         const productList = document.getElementById('product-list');
         products.forEach(p => {
             productList.innerHTML += `
-                <div class="col-md-4 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="card p-3">
+                        <img src="${p.image}" alt="${p.name}">
                         <h5>${p.name}</h5>
                         <p>ID: ${p.id}</p>
                     </div>
@@ -18,36 +19,44 @@ fetch('products.json')
             const chatBody = document.getElementById('chat-body');
             if (!input) return;
 
-            const product = products.find(p => p.id === input);
-            if (product) {
-                chatBody.innerHTML += `<div><strong>${product.name}</strong><br>Colors: ${product.colors.join(', ')}<br>Sizes: ${product.sizes.join(', ')}<br>Fit: ${product.fit}<br>Description: ${product.description}</div>`;
+            let results = [];
+
+            // Check by ID
+            const productById = products.find(p => p.id === input);
+            if (productById) {
+                results.push(`<strong>${productById.name}</strong><br>Colors: ${productById.colors.join(', ')}<br>Sizes: ${productById.sizes.join(', ')}<br>Fit: ${productById.fit}<br>Description: ${productById.description}`);
             } else {
-                // If not a product ID, use OpenAI API for conversational response
-                chatBody.innerHTML += `<div><em>Thinking...</em></div>`;
-                try {
-                    const response = await fetch('https://api.openai.com/v1/chat/completions', {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Authorization': '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' // Replace with your API key
-                        },
-                        body: JSON.stringify({
-                            model: 'gpt-4',
-                            messages: [{ role: 'user', content: input }]
-                        })
-                    });
-                    const data = await response.json();
-                    const aiReply = data.choices[0].message.content;
-                    chatBody.innerHTML += `<div>${aiReply}</div>`;
-                } catch (error) {
-                    chatBody.innerHTML += `<div>Error fetching AI response.</div>`;
+                // Check by color
+                const colorMatches = products.filter(p => p.colors.map(c => c.toLowerCase()).includes(input.toLowerCase()));
+                if (colorMatches.length > 0) {
+                    results.push(`Products with color "${input}":<br>${colorMatches.map(p => `${p.name} (ID: ${p.id})`).join('<br>')}`);
+                }
+
+                // Check by size
+                const sizeMatches = products.filter(p => p.sizes.map(s => s.toLowerCase()).includes(input.toLowerCase()));
+                if (sizeMatches.length > 0) {
+                    results.push(`Products with size "${input}":<br>${sizeMatches.map(p => `${p.name} (ID: ${p.id})`).join('<br>')}`);
+                }
+
+                // Check by fit
+                const fitMatches = products.filter(p => p.fit.toLowerCase() === input.toLowerCase());
+                if (fitMatches.length > 0) {
+                    results.push(`Products with fit "${input}":<br>${fitMatches.map(p => `${p.name} (ID: ${p.id})`).join('<br>')}`);
+                }
+
+                // Check by keyword in description
+                const keywordMatches = products.filter(p => p.description.toLowerCase().includes(input.toLowerCase()));
+                if (keywordMatches.length > 0) {
+                    results.push(`Products matching keyword "${input}":<br>${keywordMatches.map(p => `${p.name} (ID: ${p.id})`).join('<br>')}`);
                 }
             }
+
+            if (results.length > 0) {
+                chatBody.innerHTML += `<div>${results.join('<hr>')}</div>`;
+            } else {
+                chatBody.innerHTML += `<div>No direct match found. Try another query or use AI.</div>`;
+            }
+
             document.getElementById('chat-input').value = '';
         });
     });
-
-/* Instructions:
-1. Replace 'YOUR_OPENAI_API_KEY' with your actual OpenAI API key.
-2. Ensure CORS or proxy setup if running locally.
-*/
