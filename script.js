@@ -6,8 +6,7 @@ fetch('products.json')
             productList.innerHTML += `
                 <div class="col-md-3 mb-4">
                     <div class="card p-3">
-                        ${p.image}
-                        <h5>${p.name}</h5>
+                        <img src="${p.image}" alt="${p.name}" class="me}</h5>
                         <p>ID: ${p.id}</p>
                     </div>
                 </div>
@@ -28,7 +27,11 @@ fetch('products.json')
             // Check by ID
             const productById = products.find(p => p.id === input);
             if (productById) {
-                results.push(`<strong>${productById.name}</strong><br>Colors: ${productById.colors.join(', ')}<br>Sizes: ${productById.sizes.join(', ')}<br>Fit: ${productById.fit}<br>Description: ${productById.description}`);
+                results.push(`<strong>${productById.name}</strong><br>
+                              Colors: ${productById.colors.join(', ')}<br>
+                              Sizes: ${productById.sizes.join(', ')}<br>
+                              Fit: ${productById.fit}<br>
+                              Description: ${productById.description}`);
             } else {
                 // Check by color
                 const colorMatches = products.filter(p => p.colors.map(c => c.toLowerCase()).includes(input.toLowerCase()));
