@@ -3,14 +3,17 @@ fetch('products.json')
     .then(products => {
         const productList = document.getElementById('product-list');
         products.forEach(p => {
-            productList.innerHTML += `
+            
+productList.innerHTML += `
                 <div class="col-md-3 mb-4">
                     <div class="card p-3">
-                        <img src="${p.image}" alt="${p.name}" class="me}</h5>
+                        ${p.image}
+                        <h5>${p.name}</h5>
                         <p>ID: ${p.id}</p>
                     </div>
                 </div>
             `;
+
         });
 
         const chatBody = document.getElementById('chat-body');
