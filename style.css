@@ -9,9 +9,9 @@ header {
     border-bottom: 1px solid #ccc;
 }
 
-.card {
-    border: none;
-    background-color: #f9f9f9;
+.card img {
+    width: 100%;
+    height: auto;
 }
 
 .chatbot-container {
