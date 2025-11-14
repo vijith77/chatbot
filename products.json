@@ -12,7 +12,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 1.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "102",
@@ -27,7 +27,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 2.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "103",
@@ -42,7 +42,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 3.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "104",
@@ -57,7 +57,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 4.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "105",
@@ -72,7 +72,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 5.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "106",
@@ -87,7 +87,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 6.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "107",
@@ -102,7 +102,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 7.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "108",
@@ -117,7 +117,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 8.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "109",
@@ -132,7 +132,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 9.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "110",
@@ -147,7 +147,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 10.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "111",
@@ -162,7 +162,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 11.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "112",
@@ -177,7 +177,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 12.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "113",
@@ -192,7 +192,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 13.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "114",
@@ -207,7 +207,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 14.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "115",
@@ -222,7 +222,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 15.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "116",
@@ -237,7 +237,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 16.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "117",
@@ -252,7 +252,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 17.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "118",
@@ -267,7 +267,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 18.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "119",
@@ -282,7 +282,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 19.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "120",
@@ -297,7 +297,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 20.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "121",
@@ -312,7 +312,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 21.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "122",
@@ -327,7 +327,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 22.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "123",
@@ -342,7 +342,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 23.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "124",
@@ -357,7 +357,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 24.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "125",
@@ -372,7 +372,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 25.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "126",
@@ -387,7 +387,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 26.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "127",
@@ -402,7 +402,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 27.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "128",
@@ -417,7 +417,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 28.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "129",
@@ -432,7 +432,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 29.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "130",
@@ -447,7 +447,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 30.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "131",
@@ -462,7 +462,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 31.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "132",
@@ -477,7 +477,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 32.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "133",
@@ -492,7 +492,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 33.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "134",
@@ -507,7 +507,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 34.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "135",
@@ -522,7 +522,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 35.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "136",
@@ -537,7 +537,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 36.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "137",
@@ -552,7 +552,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 37.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "138",
@@ -567,7 +567,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 38.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "139",
@@ -582,7 +582,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 39.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "140",
@@ -597,7 +597,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 40.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "141",
@@ -612,7 +612,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 41.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "142",
@@ -627,7 +627,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 42.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "143",
@@ -642,7 +642,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 43.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "144",
@@ -657,7 +657,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 44.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "145",
@@ -672,7 +672,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 45.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "146",
@@ -687,7 +687,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 46.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "147",
@@ -702,7 +702,7 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 47.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "148",
@@ -717,7 +717,7 @@
         ],
         "fit": "Slim",
         "description": "This is a dummy description for Product 48.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "149",
@@ -732,7 +732,7 @@
         ],
         "fit": "Regular",
         "description": "This is a dummy description for Product 49.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     },
     {
         "id": "150",
@@ -747,6 +747,6 @@
         ],
         "fit": "Loose",
         "description": "This is a dummy description for Product 50.",
-        "image": "https://via.placeholder.com/200x250?text=Product+Image"
+        "image": "https://placehold.co/200x250?text=Product+Image"
     }
 ]
